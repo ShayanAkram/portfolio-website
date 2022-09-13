@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/personal Website.css">
+  <link rel="icon" type="image/x-icon" href="icon/favicon.ico">
+  <title>My Website</title>
+</head>
+
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+      <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <!-- <a href="about.html">About</a> -->
+        <a href="work.html">Work</a>
+      </div>
+
+      <div>
+        <h2 class="center" id="aboutMeHeading"></h2>
+        <p class="info" id="aboutMe">
+        </p>
+      </div>
+
+      <div>
+        <p class="info">
+          You can Contact me by Using the below Form.
+        </p>
+      </div>
+      <div class="container">
+        <form action="mailto:shayan.0493@gmail.com?subject=portfolio message" method="post" enctype="text/plain">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="subject" name="subject" placeholder="Your Subject..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="message">Message</label>
+            </div>
+            <div class="col-75">
+              <textarea id="message" name="message" placeholder="Write your Message.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+
+    </div>
+    <div id="footer">
+    </div>
+  </div>
+  
+  <script type="text/javascript" src="js/about.js"></script>
+  <script type="text/javascript" src="js/footer.js"></script>
+
+</body>
+
+</html>
